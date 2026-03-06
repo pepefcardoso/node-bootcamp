@@ -78,7 +78,7 @@ const deleteTour = (req, res) => {
   res.status(204).json({ status: 'success', data: null });
 };
 
-const getAllusers = (req, res) => {
+const getAllUsers = (req, res) => {
   res
     .status(500)
     .json({ status: 'error', message: 'This route is not yet implemented' });
@@ -108,19 +108,16 @@ const deleteUser = (req, res) => {
     .json({ status: 'error', message: 'This route is not yet implemented' });
 };
 
-app.route('/api/v1/tours').get(getAllTours).post(createTour);
-app
-  .route('/api/v1/tours/:id')
-  .get(getTour)
-  .patch(updateTour)
-  .delete(deleteTour);
+const tourRouter = express.Router();
+tourRouter.route('/').get(getAllTours).post(createTour);
+tourRouter.route('/:id').get(getTour).patch(updateTour).delete(deleteTour);
 
-app.route('/api/v1/users').get(getAllUsers).post(createUser);
-app
-  .route('/api/v1/users/:id')
-  .get(getUser)
-  .patch(updateUser)
-  .delete(deleteUser);
+const userRouter = express.Router();
+userRouter.route('/').get(getAllUsers).post(createUser);
+userRouter.route('/:id').get(getUser).patch(updateUser).delete(deleteUser);
+
+app.use('/api/v1/tours', tourRouter);
+app.use('/api/v1/users', userRouter);
 
 const port = process.env.PORT || 3000;
 app.listen(port, () => {
