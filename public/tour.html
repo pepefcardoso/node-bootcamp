@@ -47,11 +47,6 @@
           <img src="img/user.jpg" alt="User photo" class="nav__user-img" />
           <span>Pedro</span>
         </a>
-
-        <!--
-        <button class="nav__el">Log in</button>
-        <button class="nav__el nav__el--cta">Sign up</button>
-        -->
       </nav>
     </header>
 
@@ -59,7 +54,7 @@
       <div class="heading-box">
         <h1 class="heading-primary">
           <span
-            >The Park <br />
+            >The Lençóis <br />
             Camper Tour</span
           >
         </h1>
@@ -68,13 +63,13 @@
             <svg class="heading-box__icon">
               <use xlink:href="img/icons.svg#icon-clock"></use>
             </svg>
-            <span class="heading-box__text">10 days</span>
+            <span class="heading-box__text">12 days</span>
           </div>
           <div class="heading-box__detail">
             <svg class="heading-box__icon">
               <use xlink:href="img/icons.svg#icon-map-pin"></use>
             </svg>
-            <span class="heading-box__text">Las Vegas, USA</span>
+            <span class="heading-box__text">Barreirinhas, Brazil</span>
           </div>
         </div>
       </div>
@@ -90,14 +85,14 @@
                 <use xlink:href="img/icons.svg#icon-calendar"></use>
               </svg>
               <span class="overview-box__label">Next date</span>
-              <span class="overview-box__text">August 2021</span>
+              <span class="overview-box__text">August 2026</span>
             </div>
             <div class="overview-box__detail">
               <svg class="overview-box__icon">
                 <use xlink:href="img/icons.svg#icon-trending-up"></use>
               </svg>
               <span class="overview-box__label">Difficulty</span>
-              <span class="overview-box__text">Medium</span>
+              <span class="overview-box__text">Difficult</span>
             </div>
             <div class="overview-box__detail">
               <svg class="overview-box__icon">
@@ -111,7 +106,7 @@
                 <use xlink:href="img/icons.svg#icon-star"></use>
               </svg>
               <span class="overview-box__label">Rating</span>
-              <span class="overview-box__text">4.9 / 5</span>
+              <span class="overview-box__text">4.8 / 5</span>
             </div>
           </div>
 
@@ -150,20 +145,20 @@
       </div>
 
       <div class="description-box">
-        <h2 class="heading-secondary ma-bt-lg">About the park camper tour</h2>
+        <h2 class="heading-secondary ma-bt-lg">
+          About The Lençóis Camper tour
+        </h2>
         <p class="description__text">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur.
+          Camp under a starry sky in the middle of one of the most surreal
+          landscapes on the planet. Lençóis Maranhenses, with its endless white
+          sand dunes and turquoise freshwater lagoons, provide a visual
+          spectacle that defies the imagination. Feel the texture of the fine
+          sand as you walk to your private oasis.
         </p>
         <p class="description__text">
-          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-          dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-          proident, sunt in culpa qui officia deserunt mollit anim id est
-          laborum!
+          Experience the absolute peace of the Brazilian desert and wake up to
+          the sunrise reflecting in the clear waters. A true disconnection from
+          modern life to reconnect with the essence of wild nature.
         </p>
       </div>
     </section>
@@ -173,21 +168,21 @@
         <img
           class="picture-box__img picture-box__img--1"
           src="img/tour-5-1.jpg"
-          alt="The Park Camper Tour 1"
+          alt="The Lençóis Camper Tour 1"
         />
       </div>
       <div class="picture-box">
         <img
           class="picture-box__img picture-box__img--2"
           src="img/tour-5-2.jpg"
-          alt="The Park Camper Tour 1"
+          alt="The Lençóis Camper Tour 2"
         />
       </div>
       <div class="picture-box">
         <img
           class="picture-box__img picture-box__img--3"
           src="img/tour-5-3.jpg"
-          alt="The Park Camper Tour 1"
+          alt="The Lençóis Camper Tour 3"
         />
       </div>
     </section>
@@ -204,67 +199,67 @@
               type: 'Feature',
               geometry: {
                 type: 'Point',
-                coordinates: [-112.987418, 37.198125]
+                coordinates: [-42.946, -2.5701],
               },
               properties: {
-                description: 'Zion Canyon National Park'
-              }
+                description: 'Day 1: Lagoa Azul',
+              },
             },
             {
               type: 'Feature',
               geometry: {
                 type: 'Point',
-                coordinates: [-111.376161, 36.86438]
+                coordinates: [-42.7118, -2.5786],
               },
               properties: {
-                description: 'Antelope Canyon'
-              }
+                description: 'Day 4: Caburé',
+              },
             },
             {
               type: 'Feature',
               geometry: {
                 type: 'Point',
-                coordinates: [-112.115763, 36.058973]
+                coordinates: [-42.7488, -2.5796],
               },
               properties: {
-                description: 'Grand Canyon National Park'
-              }
+                description: 'Day 5: Atins',
+              },
             },
             {
               type: 'Feature',
               geometry: {
                 type: 'Point',
-                coordinates: [-116.107963, 34.011646]
+                coordinates: [-43.2382, -2.4496],
               },
               properties: {
-                description: 'Joshua Tree National Park'
-              }
-            }
-          ]
+                description: 'Day 9: Santo Amaro do Maranhão',
+              },
+            },
+          ],
         };
 
         const map = new mapboxgl.Map({
           container: 'map',
           style: 'mapbox://styles/jonasschmedtmann/cjnxfn3zk7bj52rpegdltx58h',
-          scrollZoom: false
+          scrollZoom: false,
         });
 
         const bounds = new mapboxgl.LngLatBounds();
 
-        geojson.features.forEach(function(marker) {
+        geojson.features.forEach(function (marker) {
           var el = document.createElement('div');
           el.className = 'marker';
 
           new mapboxgl.Marker({
             element: el,
-            anchor: 'bottom'
+            anchor: 'bottom',
           })
             .setLngLat(marker.geometry.coordinates)
             .addTo(map);
 
           new mapboxgl.Popup({
             offset: 30,
-            closeOnClick: false
+            closeOnClick: false,
           })
             .setLngLat(marker.geometry.coordinates)
             .setHTML('<p>' + marker.properties.description + '</p>')
@@ -278,11 +273,11 @@
             top: 200,
             bottom: 150,
             left: 50,
-            right: 50
-          }
+            right: 50,
+          },
         });
 
-        map.on('load', function() {
+        map.on('load', function () {
           map.addLayer({
             id: 'route',
             type: 'line',
@@ -294,23 +289,23 @@
                 geometry: {
                   type: 'LineString',
                   coordinates: [
-                    [-112.987418, 37.198125],
-                    [-111.376161, 36.86438],
-                    [-112.115763, 36.058973],
-                    [-116.107963, 34.011646]
-                  ]
-                }
-              }
+                    [-42.946, -2.5701],
+                    [-42.7118, -2.5786],
+                    [-42.7488, -2.5796],
+                    [-43.2382, -2.4496],
+                  ],
+                },
+              },
             },
             layout: {
               'line-join': 'round',
-              'line-cap': 'round'
+              'line-cap': 'round',
             },
             paint: {
               'line-color': '#55c57a',
               'line-opacity': 0.6,
-              'line-width': 3
-            }
+              'line-width': 3,
+            },
           });
         });
       </script>
@@ -328,9 +323,8 @@
             <h6 class="reviews__user">Jim Brown</h6>
           </div>
           <p class="reviews__text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque
-            dignissimos sint quo commodi corrupti accusantium veniam saepe
-            numquam.
+            This camping experience in the dunes was unreal! The sunrise over
+            the lagoons is something I will never forget.
           </p>
           <div class="reviews__rating">
             <svg class="reviews__star reviews__star--active">
@@ -361,9 +355,9 @@
             <h6 class="reviews__user">Laura Wilson</h6>
           </div>
           <p class="reviews__text">
-            Veniam adipisci blanditiis, corporis sit magnam aperiam ad, fuga
-            reiciendis provident deleniti cumque similique itaque animi,
-            sapiente obcaecati beatae accusantium.
+            A challenging trek but absolutely worth the effort. Disconnecting
+            completely from civilization was just what I needed. Highly
+            recommend!
           </p>
           <div class="reviews__rating">
             <svg class="reviews__star reviews__star--active">
@@ -383,104 +377,6 @@
             </svg>
           </div>
         </div>
-
-        <div class="reviews__card">
-          <div class="reviews__avatar">
-            <img
-              src="img/users/user-15.jpg"
-              alt="Ben Hadley"
-              class="reviews__avatar-img"
-            />
-            <h6 class="reviews__user">Ben Hadley</h6>
-          </div>
-          <p class="reviews__text">
-            Debitis, nesciunt itaque! At quis officia natus. Suscipit,
-            reprehenderit blanditiis mollitia distinctio ducimus porro tempore
-            perspiciatis sunt vel.
-          </p>
-          <div class="reviews__rating">
-            <svg class="reviews__star reviews__star--active">
-              <use xlink:href="img/icons.svg#icon-star"></use>
-            </svg>
-            <svg class="reviews__star reviews__star--active">
-              <use xlink:href="img/icons.svg#icon-star"></use>
-            </svg>
-            <svg class="reviews__star reviews__star--active">
-              <use xlink:href="img/icons.svg#icon-star"></use>
-            </svg>
-            <svg class="reviews__star reviews__star--active">
-              <use xlink:href="img/icons.svg#icon-star"></use>
-            </svg>
-            <svg class="reviews__star reviews__star--active">
-              <use xlink:href="img/icons.svg#icon-star"></use>
-            </svg>
-          </div>
-        </div>
-
-        <div class="reviews__card">
-          <div class="reviews__avatar">
-            <img
-              src="img/users/user-6.jpg"
-              alt="Alexander Jones"
-              class="reviews__avatar-img"
-            />
-            <h6 class="reviews__user">Alexander Jones</h6>
-          </div>
-          <p class="reviews__text">
-            Quaerat laborum eveniet ut aut maiores doloribus mollitia aperiam
-            quis praesentium sed inventore harum aliquam veritatis at adipisci
-            ea assumenda!
-          </p>
-          <div class="reviews__rating">
-            <svg class="reviews__star reviews__star--active">
-              <use xlink:href="img/icons.svg#icon-star"></use>
-            </svg>
-            <svg class="reviews__star reviews__star--active">
-              <use xlink:href="img/icons.svg#icon-star"></use>
-            </svg>
-            <svg class="reviews__star reviews__star--active">
-              <use xlink:href="img/icons.svg#icon-star"></use>
-            </svg>
-            <svg class="reviews__star reviews__star--active">
-              <use xlink:href="img/icons.svg#icon-star"></use>
-            </svg>
-            <svg class="reviews__star reviews__star--active">
-              <use xlink:href="img/icons.svg#icon-star"></use>
-            </svg>
-          </div>
-        </div>
-
-        <div class="reviews__card">
-          <div class="reviews__avatar">
-            <img
-              src="img/users/user-3.jpg"
-              alt="Ayla Cornell"
-              class="reviews__avatar-img"
-            />
-            <h6 class="reviews__user">Ayla Cornell</h6>
-          </div>
-          <p class="reviews__text">
-            Perferendis quo aliquid iste quas laboriosam molestias illo est
-            voluptatem odit ea. Vero placeat culpa provident dicta maiores!
-          </p>
-          <div class="reviews__rating">
-            <svg class="reviews__star reviews__star--active">
-              <use xlink:href="img/icons.svg#icon-star"></use>
-            </svg>
-            <svg class="reviews__star reviews__star--active">
-              <use xlink:href="img/icons.svg#icon-star"></use>
-            </svg>
-            <svg class="reviews__star reviews__star--active">
-              <use xlink:href="img/icons.svg#icon-star"></use>
-            </svg>
-            <svg class="reviews__star reviews__star--active">
-              <use xlink:href="img/icons.svg#icon-star"></use>
-            </svg>
-            <svg class="reviews__star reviews__star--active">
-              <use xlink:href="img/icons.svg#icon-star"></use>
-            </svg>
-          </div>
-        </div>
       </div>
     </section>
 
@@ -495,7 +391,7 @@
         <div class="cta__content">
           <h2 class="heading-secondary">What are you waiting for?</h2>
           <p class="cta__text">
-            10 days. 1 adventure. Infinite memories. Make it yours today!
+            12 days. 1 adventure. Infinite memories. Make it yours today!
           </p>
           <button class="btn btn--green span-all-rows">Book tour now!</button>
         </div>

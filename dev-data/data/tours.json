@@ -1,468 +1,468 @@
 [
   {
     "startLocation": {
-      "description": "Miami, USA",
+      "description": "Paraty, RJ, Brazil",
       "type": "Point",
-      "coordinates": [-80.185942, 25.774772],
-      "address": "301 Biscayne Blvd, Miami, FL 33132, USA"
+      "coordinates": [-44.7132, -23.2198],
+      "address": "Centro Histórico, Paraty, RJ, Brazil"
     },
-    "ratingsAverage": 4.8,
-    "ratingsQuantity": 6,
+    "ratingsAverage": 4.6,
+    "ratingsQuantity": 28,
     "images": ["tour-2-1.jpg", "tour-2-2.jpg", "tour-2-3.jpg"],
     "startDates": [
-      "2021-06-19T09:00:00.000Z",
-      "2021-07-20T09:00:00.000Z",
-      "2021-08-18T09:00:00.000Z"
+      "2026-06-19T09:00:00.000Z",
+      "2026-07-20T09:00:00.000Z",
+      "2026-08-18T09:00:00.000Z"
     ],
     "_id": "5c88fa8cf4afda39709c2955",
-    "name": "The Sea Explorer",
-    "duration": 7,
-    "maxGroupSize": 15,
-    "difficulty": "medium",
+    "name": "The Costa Verde Explorer",
+    "duration": 8,
+    "maxGroupSize": 12,
+    "difficulty": "easy",
     "guides": ["5c8a22c62f8fb814b56fa18b", "5c8a1f4e2f8fb814b56fa185"],
-    "price": 497,
-    "summary": "Exploring the jaw-dropping US east coast by foot and by boat",
-    "description": "Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\nIrure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    "price": 520,
+    "summary": "Exploring the jaw-dropping Brazilian Costa Verde by foot and by boat",
+    "description": "Discover the magic where the Atlantic Forest meets the crystal-clear sea. Costa Verde is a paradise of deserted beaches, heavenly islands, and incredible marine biodiversity. We will sail through calm waters and hike along historic coastal trails.\nEnjoy the radiant sun, dive into secret bays, and relax to the sound of the waves. This expedition is the perfect combination of relaxation on pristine beaches and exploration of vibrant coastal ecosystems.",
     "imageCover": "tour-2-cover.jpg",
     "locations": [
       {
         "_id": "5c88fa8cf4afda39709c2959",
-        "description": "Lummus Park Beach",
+        "description": "Praia do Sono",
         "type": "Point",
-        "coordinates": [-80.128473, 25.781842],
+        "coordinates": [-44.6366, -23.3283],
         "day": 1
       },
       {
         "_id": "5c88fa8cf4afda39709c2958",
-        "description": "Islamorada",
+        "description": "Ilha Grande",
         "type": "Point",
-        "coordinates": [-80.647885, 24.909047],
+        "coordinates": [-44.2294, -23.1511],
         "day": 2
       },
       {
         "_id": "5c88fa8cf4afda39709c2957",
-        "description": "Sombrero Beach",
+        "description": "Trindade",
         "type": "Point",
-        "coordinates": [-81.0784, 24.707496],
+        "coordinates": [-44.7214, -23.3496],
         "day": 3
       },
       {
         "_id": "5c88fa8cf4afda39709c2956",
-        "description": "West Key",
+        "description": "Angra dos Reis",
         "type": "Point",
-        "coordinates": [-81.768719, 24.552242],
+        "coordinates": [-44.3166, -23.0067],
         "day": 5
       }
     ]
   },
   {
     "startLocation": {
-      "description": "Banff, CAN",
+      "description": "Lençóis, BA, Brazil",
       "type": "Point",
-      "coordinates": [-115.570154, 51.178456],
-      "address": "224 Banff Ave, Banff, AB, Canada"
+      "coordinates": [-41.3888, -12.5614],
+      "address": "Praça Horácio de Matos, Lençóis, BA, Brazil"
     },
-    "ratingsAverage": 5,
-    "ratingsQuantity": 9,
+    "ratingsAverage": 4.8,
+    "ratingsQuantity": 42,
     "images": ["tour-1-1.jpg", "tour-1-2.jpg", "tour-1-3.jpg"],
     "startDates": [
-      "2021-04-25T09:00:00.000Z",
-      "2021-07-20T09:00:00.000Z",
-      "2021-10-05T09:00:00.000Z"
+      "2026-04-25T09:00:00.000Z",
+      "2026-07-20T09:00:00.000Z",
+      "2026-10-05T09:00:00.000Z"
     ],
     "_id": "5c88fa8cf4afda39709c2951",
-    "name": "The Forest Hiker",
-    "duration": 5,
-    "maxGroupSize": 25,
-    "difficulty": "easy",
+    "name": "The Chapada Hiker",
+    "duration": 6,
+    "maxGroupSize": 20,
+    "difficulty": "medium",
     "guides": [
       "5c8a21d02f8fb814b56fa189",
       "5c8a201e2f8fb814b56fa186",
       "5c8a1f292f8fb814b56fa184"
     ],
-    "price": 397,
-    "summary": "Breathtaking hike through the Canadian Banff National Park",
-    "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.\nLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "price": 415,
+    "summary": "Breathtaking hike through the lush trails of Chapada Diamantina",
+    "description": "Get ready for an unforgettable journey through the heart of Bahia. Chapada Diamantina offers imposing mountains, crystal-clear waterfalls, and mysterious caves. During this trail, you will be immersed in lush nature and fascinating local culture.\nHike through deep valleys and climb to the highest viewpoints for breathtaking views. Every step reveals a new natural wonder, making this experience perfect for nature lovers and pure adventurers.",
     "imageCover": "tour-1-cover.jpg",
     "locations": [
       {
         "_id": "5c88fa8cf4afda39709c2954",
-        "description": "Banff National Park",
+        "description": "Morro do Pai Inácio",
         "type": "Point",
-        "coordinates": [-116.214531, 51.417611],
+        "coordinates": [-41.4827, -12.4542],
         "day": 1
       },
       {
         "_id": "5c88fa8cf4afda39709c2953",
-        "description": "Jasper National Park",
+        "description": "Cachoeira da Fumaça",
         "type": "Point",
-        "coordinates": [-118.076152, 52.875223],
+        "coordinates": [-41.455, -12.6033],
         "day": 3
       },
       {
         "_id": "5c88fa8cf4afda39709c2952",
-        "description": "Glacier National Park of Canada",
+        "description": "Poço Azul",
         "type": "Point",
-        "coordinates": [-117.490309, 51.261937],
+        "coordinates": [-41.3148, -12.8306],
         "day": 5
       }
     ]
   },
   {
     "startLocation": {
-      "description": "Aspen, USA",
+      "description": "São Joaquim, SC, Brazil",
       "type": "Point",
-      "coordinates": [-106.822318, 39.190872],
-      "address": "419 S Mill St, Aspen, CO 81611, USA"
+      "coordinates": [-49.9316, -28.2936],
+      "address": "Centro, São Joaquim, SC, Brazil"
     },
-    "ratingsAverage": 4.5,
-    "ratingsQuantity": 6,
+    "ratingsAverage": 4.7,
+    "ratingsQuantity": 18,
     "images": ["tour-3-1.jpg", "tour-3-2.jpg", "tour-3-3.jpg"],
     "startDates": [
-      "2022-01-05T10:00:00.000Z",
-      "2022-02-12T10:00:00.000Z",
-      "2023-01-06T10:00:00.000Z"
+      "2026-07-05T10:00:00.000Z",
+      "2026-07-20T10:00:00.000Z",
+      "2027-08-05T10:00:00.000Z"
     ],
     "_id": "5c88fa8cf4afda39709c295a",
-    "name": "The Snow Adventurer",
-    "duration": 4,
-    "maxGroupSize": 10,
-    "difficulty": "difficult",
+    "name": "The Catarina Snow Adventurer",
+    "duration": 3,
+    "maxGroupSize": 15,
+    "difficulty": "medium",
     "guides": [
       "5c8a21d02f8fb814b56fa189",
       "5c8a23412f8fb814b56fa18c",
       "5c8a1f4e2f8fb814b56fa185"
     ],
-    "price": 997,
-    "summary": "Exciting adventure in the snow with snowboarding and skiing",
-    "description": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua, ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum!\nDolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur, exercitation ullamco laboris nisi ut aliquip. Lorem ipsum dolor sit amet, consectetur adipisicing elit!",
+    "price": 850,
+    "summary": "Rare and exciting frosty adventure catching the winter snow in Serra Catarinense",
+    "description": "Challenge the cold in the stunning landscapes of Serra Catarinense. One of the rare regions in Brazil where snow transforms the scenery into a white spectacle, offering a unique tropical winter experience. Feel the icy breeze as you explore impressive valleys and canyons.\nWarm up with the heat of southern hospitality, savoring local cuisine and regional wines by the fireplace after an intense day of adventures in the ice and frost.",
     "imageCover": "tour-3-cover.jpg",
     "locations": [
       {
         "_id": "5c88fa8cf4afda39709c295c",
-        "description": "Aspen Highlands",
+        "description": "Morro da Igreja",
         "type": "Point",
-        "coordinates": [-106.855385, 39.182677],
+        "coordinates": [-49.4975, -28.1256],
         "day": 1
       },
       {
         "_id": "5c88fa8cf4afda39709c295b",
-        "description": "Beaver Creek",
+        "description": "Serra do Rio do Rastro",
         "type": "Point",
-        "coordinates": [-106.516623, 39.60499],
+        "coordinates": [-49.5445, -28.3881],
         "day": 2
       }
     ]
   },
   {
     "startLocation": {
-      "description": "Las Vegas, USA",
+      "description": "Barreirinhas, MA, Brazil",
       "type": "Point",
-      "coordinates": [-115.172652, 36.110904],
-      "address": "3663 S Las Vegas Blvd, Las Vegas, NV 89109, USA"
+      "coordinates": [-42.8258, -2.7486],
+      "address": "Centro, Barreirinhas, MA, Brazil"
     },
-    "ratingsAverage": 4.7,
-    "ratingsQuantity": 7,
+    "ratingsAverage": 4.8,
+    "ratingsQuantity": 24,
     "images": ["tour-5-1.jpg", "tour-5-2.jpg", "tour-5-3.jpg"],
     "startDates": [
-      "2021-08-05T09:00:00.000Z",
-      "2022-03-20T10:00:00.000Z",
-      "2022-08-12T09:00:00.000Z"
+      "2026-08-05T09:00:00.000Z",
+      "2027-03-20T10:00:00.000Z",
+      "2027-08-12T09:00:00.000Z"
     ],
     "_id": "5c88fa8cf4afda39709c2961",
-    "name": "The Park Camper",
-    "duration": 10,
-    "maxGroupSize": 15,
-    "difficulty": "medium",
+    "name": "The Lençóis Camper",
+    "duration": 12,
+    "maxGroupSize": 10,
+    "difficulty": "difficult",
     "guides": [
       "5c8a21f22f8fb814b56fa18a",
       "5c8a23412f8fb814b56fa18c",
       "5c8a201e2f8fb814b56fa186"
     ],
-    "price": 1497,
-    "summary": "Breathing in Nature in America's most spectacular National Parks",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.\nDuis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum!",
+    "price": 1600,
+    "summary": "Breathing in Nature in Brazil's most spectacular National Parks like Lençóis Maranhenses",
+    "description": "Camp under a starry sky in the middle of one of the most surreal landscapes on the planet. Lençóis Maranhenses, with its endless white sand dunes and turquoise freshwater lagoons, provide a visual spectacle that defies the imagination. Feel the texture of the fine sand as you walk to your private oasis.\nExperience the absolute peace of the Brazilian desert and wake up to the sunrise reflecting in the clear waters. A true disconnection from modern life to reconnect with the essence of wild nature.",
     "imageCover": "tour-5-cover.jpg",
     "locations": [
       {
         "_id": "5c88fa8cf4afda39709c2965",
-        "description": "Zion Canyon National Park",
+        "description": "Lagoa Azul",
         "type": "Point",
-        "coordinates": [-112.987418, 37.198125],
+        "coordinates": [-42.946, -2.5701],
         "day": 1
       },
       {
         "_id": "5c88fa8cf4afda39709c2964",
-        "description": "Antelope Canyon",
+        "description": "Caburé",
         "type": "Point",
-        "coordinates": [-111.376161, 36.86438],
+        "coordinates": [-42.7118, -2.5786],
         "day": 4
       },
       {
         "_id": "5c88fa8cf4afda39709c2963",
-        "description": "Grand Canyon National Park",
+        "description": "Atins",
         "type": "Point",
-        "coordinates": [-112.115763, 36.058973],
+        "coordinates": [-42.7488, -2.5796],
         "day": 5
       },
       {
         "_id": "5c88fa8cf4afda39709c2962",
-        "description": "Joshua Tree National Park",
+        "description": "Santo Amaro do Maranhão",
         "type": "Point",
-        "coordinates": [-116.107963, 34.011646],
+        "coordinates": [-43.2382, -2.4496],
         "day": 9
       }
     ]
   },
   {
     "startLocation": {
-      "description": "NYC, USA",
+      "description": "Ouro Preto, MG, Brazil",
       "type": "Point",
-      "coordinates": [-73.985141, 40.75894],
-      "address": "Manhattan, NY 10036, USA"
+      "coordinates": [-43.5035, -20.3856],
+      "address": "Praça Tiradentes, Ouro Preto, MG, Brazil"
     },
-    "ratingsAverage": 4.6,
-    "ratingsQuantity": 5,
+    "ratingsAverage": 4.9,
+    "ratingsQuantity": 61,
     "images": ["tour-4-1.jpg", "tour-4-2.jpg", "tour-4-3.jpg"],
     "startDates": [
-      "2021-03-11T10:00:00.000Z",
-      "2021-05-02T09:00:00.000Z",
-      "2021-06-09T09:00:00.000Z"
+      "2026-03-11T10:00:00.000Z",
+      "2026-05-02T09:00:00.000Z",
+      "2026-06-09T09:00:00.000Z"
     ],
     "_id": "5c88fa8cf4afda39709c295d",
-    "name": "The City Wanderer",
-    "duration": 9,
-    "maxGroupSize": 20,
+    "name": "The Colonial City Wanderer",
+    "duration": 10,
+    "maxGroupSize": 18,
     "difficulty": "easy",
     "guides": ["5c8a22c62f8fb814b56fa18b", "5c8a201e2f8fb814b56fa186"],
-    "price": 1197,
-    "summary": "Living the life of Wanderlust in the US' most beatiful cities",
-    "description": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat lorem ipsum dolor sit amet.\nConsectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur, nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat!",
+    "price": 1050,
+    "summary": "Living the life of Wanderlust in Brazil's most beautiful historical cities like Ouro Preto and Paraty",
+    "description": "Step back in time walking through the charming cobblestone streets of Ouro Preto and Paraty. This cultural itinerary takes you to immerse yourself in Brazil's rich colonial history, admiring the baroque architecture and churches adorned with gold. Every corner tells a story of centuries past.\nBeyond the historical immersion, enjoy the vibrant art scene, literary festivals, and unparalleled gastronomy. A journey that beautifully and unforgettably connects the past and the present.",
     "imageCover": "tour-4-cover.jpg",
     "locations": [
       {
         "_id": "5c88fa8cf4afda39709c2960",
-        "description": "New York",
+        "description": "Mariana",
         "type": "Point",
-        "coordinates": [-73.967696, 40.781821],
+        "coordinates": [-43.415, -20.3776],
         "day": 1
       },
       {
         "_id": "5c88fa8cf4afda39709c295f",
-        "description": "Los Angeles",
+        "description": "Tiradentes",
         "type": "Point",
-        "coordinates": [-118.324396, 34.097984],
+        "coordinates": [-44.1781, -21.1102],
         "day": 3
       },
       {
         "_id": "5c88fa8cf4afda39709c295e",
-        "description": "San Francisco",
+        "description": "Paraty",
         "type": "Point",
-        "coordinates": [-122.408865, 37.787825],
+        "coordinates": [-44.7132, -23.2198],
         "day": 5
       }
     ]
   },
   {
     "startLocation": {
-      "description": "California, USA",
+      "description": "Rio de Janeiro, RJ, Brazil",
       "type": "Point",
-      "coordinates": [-118.803461, 34.006072],
-      "address": "29130 Cliffside Dr, Malibu, CA 90265, USA"
+      "coordinates": [-43.1822, -22.9068],
+      "address": "Copacabana, Rio de Janeiro, RJ, Brazil"
     },
-    "ratingsAverage": 3.9,
-    "ratingsQuantity": 7,
+    "ratingsAverage": 4.5,
+    "ratingsQuantity": 32,
     "images": ["tour-6-1.jpg", "tour-6-2.jpg", "tour-6-3.jpg"],
     "startDates": [
-      "2021-07-19T09:00:00.000Z",
-      "2021-09-06T09:00:00.000Z",
-      "2022-03-18T10:00:00.000Z"
+      "2026-07-19T09:00:00.000Z",
+      "2026-09-06T09:00:00.000Z",
+      "2027-03-18T10:00:00.000Z"
     ],
     "_id": "5c88fa8cf4afda39709c2966",
-    "name": "The Sports Lover",
-    "duration": 14,
-    "maxGroupSize": 8,
+    "name": "The Tropical Sports Lover",
+    "duration": 15,
+    "maxGroupSize": 6,
     "difficulty": "difficult",
     "guides": [
       "5c8a21f22f8fb814b56fa18a",
       "5c8a1f292f8fb814b56fa184",
       "5c8a1f4e2f8fb814b56fa185"
     ],
-    "price": 2997,
-    "summary": "Surfing, skating, parajumping, rock climbing and more, all in one tour",
-    "description": "Nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.\nVoluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur!",
+    "price": 3100,
+    "summary": "Surfing in Florianópolis, hang gliding in Rio, rock climbing and more, all in one tour",
+    "description": "Adrenaline will rise on this journey designed for extreme sports addicts. From the perfect waves of Florianópolis to hang gliding flights over the iconic Rio de Janeiro, along with challenging rock climbs, this tour is action from start to finish. Feel the wind in your face and your heart beating faster.\nIt's not just about the sport, but about the connection with the vibrant energy of Brazil. After each physical challenge, celebrate your achievements by enjoying the authentic Brazilian vibe with lots of music, beach, and joy.",
     "imageCover": "tour-6-cover.jpg",
     "locations": [
       {
         "_id": "5c88fa8cf4afda39709c296b",
-        "description": "Point Dume Beach",
+        "description": "Pedra da Gávea",
         "type": "Point",
-        "coordinates": [-118.809361, 34.003098],
+        "coordinates": [-43.2844, -22.9976],
         "day": 1
       },
       {
         "_id": "5c88fa8cf4afda39709c296a",
-        "description": "Venice Skate Park",
+        "description": "Florianópolis",
         "type": "Point",
-        "coordinates": [-118.47549, 33.987367],
+        "coordinates": [-48.5492, -27.5969],
         "day": 4
       },
       {
         "_id": "5c88fa8cf4afda39709c2969",
-        "description": "San Diego Skydive",
+        "description": "Praia do Rosa",
         "type": "Point",
-        "coordinates": [-116.830104, 33.022843],
+        "coordinates": [-48.6481, -28.1368],
         "day": 6
       },
       {
         "_id": "5c88fa8cf4afda39709c2968",
-        "description": "Kern River Rafting",
+        "description": "Chapada dos Veadeiros",
         "type": "Point",
-        "coordinates": [-118.4547, 35.710359],
+        "coordinates": [-47.8184, -14.1331],
         "day": 7
       },
       {
         "_id": "5c88fa8cf4afda39709c2967",
-        "description": "Yosemite National Park",
+        "description": "Brotas",
         "type": "Point",
-        "coordinates": [-119.600492, 37.742371],
+        "coordinates": [-48.1251, -22.2858],
         "day": 10
       }
     ]
   },
   {
     "startLocation": {
-      "description": "Utah, USA",
+      "description": "Palmas, TO, Brazil",
       "type": "Point",
-      "coordinates": [-109.55099, 37.283469],
-      "address": "Bluff, UT 84512, USA"
+      "coordinates": [-48.3336, -10.1689],
+      "address": "Praça dos Girassóis, Palmas, TO, Brazil"
     },
-    "ratingsAverage": 4.8,
-    "ratingsQuantity": 6,
+    "ratingsAverage": 4.6,
+    "ratingsQuantity": 35,
     "images": ["tour-8-1.jpg", "tour-8-2.jpg", "tour-8-3.jpg"],
     "startDates": [
-      "2021-03-23T10:00:00.000Z",
-      "2021-10-25T09:00:00.000Z",
-      "2022-01-30T10:00:00.000Z"
+      "2026-03-23T10:00:00.000Z",
+      "2026-10-25T09:00:00.000Z",
+      "2027-01-30T10:00:00.000Z"
     ],
     "_id": "5c88fa8cf4afda39709c2970",
-    "name": "The Star Gazer",
-    "duration": 9,
-    "maxGroupSize": 8,
+    "name": "The Jalapão Star Gazer",
+    "duration": 7,
+    "maxGroupSize": 10,
     "difficulty": "medium",
     "guides": ["5c8a21d02f8fb814b56fa189", "5c8a1f292f8fb814b56fa184"],
-    "price": 2997,
-    "summary": "The most remote and stunningly beautiful places for seeing the night sky",
-    "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.\nLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "price": 2750,
+    "summary": "The most remote and stunningly beautiful places for seeing the night sky in the Jalapão State Park",
+    "description": "Venture into the heart of the Brazilian cerrado, where light pollution does not exist and the universe reveals itself in all its glory. Jalapão is famous for its crystal-clear natural springs, golden dunes, and imposing rock formations that serve as the stage for incomparable astronomical observation nights.\nContemplate constellations, shooting stars, and the Milky Way with the naked eye while listening to the sound of untouched nature. An experience of pure contemplation and spiritual peace in the middle of central Brazil.",
     "imageCover": "tour-8-cover.jpg",
     "locations": [
       {
         "_id": "5c88fa8cf4afda39709c2973",
-        "description": "Natural Bridges National Monument",
+        "description": "Dunas do Jalapão",
         "type": "Point",
-        "coordinates": [-109.99953, 37.629017],
+        "coordinates": [-46.6853, -10.4632],
         "day": 1
       },
       {
         "_id": "5c88fa8cf4afda39709c2972",
-        "description": "Horseshoe Bend",
+        "description": "Fervedouro do Ceiça",
         "type": "Point",
-        "coordinates": [-111.50954, 36.883269],
+        "coordinates": [-46.529, -10.3734],
         "day": 3
       },
       {
         "_id": "5c88fa8cf4afda39709c2971",
-        "description": "Death Valley National Park",
+        "description": "Cachoeira da Velha",
         "type": "Point",
-        "coordinates": [-117.07399, 36.501435],
+        "coordinates": [-46.8622, -10.2285],
         "day": 6
       }
     ]
   },
   {
     "startLocation": {
-      "description": "Yellowknife, CAN",
+      "description": "Paranaguá, PR, Brazil",
       "type": "Point",
-      "coordinates": [-114.406097, 62.439943],
-      "address": "Yellowknife, NT X1A 2L2, Canada"
+      "coordinates": [-48.5284, -25.5165],
+      "address": "Porto de Paranaguá, PR, Brazil"
     },
-    "ratingsAverage": 4.7,
-    "ratingsQuantity": 7,
+    "ratingsAverage": 4.8,
+    "ratingsQuantity": 45,
     "images": ["tour-9-1.jpg", "tour-9-2.jpg", "tour-9-3.jpg"],
     "startDates": [
-      "2021-12-16T10:00:00.000Z",
-      "2022-01-16T10:00:00.000Z",
-      "2022-12-12T10:00:00.000Z"
+      "2026-12-16T10:00:00.000Z",
+      "2027-01-16T10:00:00.000Z",
+      "2027-12-12T10:00:00.000Z"
     ],
     "_id": "5c88fa8cf4afda39709c2974",
-    "name": "The Northern Lights",
-    "duration": 3,
-    "maxGroupSize": 12,
-    "difficulty": "easy",
+    "name": "The Bioluminescent Explorer",
+    "duration": 4,
+    "maxGroupSize": 14,
+    "difficulty": "medium",
     "guides": [
       "5c8a21f22f8fb814b56fa18a",
       "5c8a201e2f8fb814b56fa186",
       "5c8a23412f8fb814b56fa18c"
     ],
-    "price": 1497,
-    "summary": "Enjoy the Northern Lights in one of the best places in the world",
-    "description": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua, ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum!\nDolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur, exercitation ullamco laboris nisi ut aliquip. Lorem ipsum dolor sit amet, consectetur adipisicing elit!",
+    "price": 1350,
+    "summary": "Enjoy the glowing bioluminescent waters and starry skies in Ilha do Mel, Brazil",
+    "description": "Witness the magic of nature on the dark nights of Ilha do Mel. Far from the city lights, you will have the rare opportunity to see the ocean glow with the spectacle of bioluminescence. Walk along deserted beaches and watch the water light up with every step or movement of the waves.\nThis car-free island full of charming trails offers the perfect refuge. Combine the nocturnal mystery of the glowing waters with sunny days on pristine beaches and visits to historic fortresses.",
     "imageCover": "tour-9-cover.jpg",
     "locations": [
       {
         "_id": "5c88fa8cf4afda39709c2975",
-        "description": "Yellowknife",
+        "description": "Ilha do Mel",
         "type": "Point",
-        "coordinates": [-114.406097, 62.439943],
+        "coordinates": [-48.3142, -25.5414],
         "day": 1
       }
     ]
   },
   {
     "startLocation": {
-      "description": "California, USA",
+      "description": "Bento Gonçalves, RS, Brazil",
       "type": "Point",
-      "coordinates": [-122.29286, 38.294065],
-      "address": "560 Jefferson St, Napa, CA 94559, USA"
+      "coordinates": [-51.5173, -29.1678],
+      "address": "Vale dos Vinhedos, Bento Gonçalves, RS, Brazil"
     },
-    "ratingsAverage": 4.4,
-    "ratingsQuantity": 7,
+    "ratingsAverage": 4.9,
+    "ratingsQuantity": 40,
     "images": ["tour-7-1.jpg", "tour-7-2.jpg", "tour-7-3.jpg"],
     "startDates": [
-      "2021-02-12T10:00:00.000Z",
-      "2021-04-14T09:00:00.000Z",
-      "2021-09-01T09:00:00.000Z"
+      "2026-02-12T10:00:00.000Z",
+      "2026-04-14T09:00:00.000Z",
+      "2026-09-01T09:00:00.000Z"
     ],
     "_id": "5c88fa8cf4afda39709c296c",
-    "name": "The Wine Taster",
-    "duration": 5,
-    "maxGroupSize": 8,
+    "name": "The Gaucho Wine Taster",
+    "duration": 4,
+    "maxGroupSize": 12,
     "difficulty": "easy",
     "guides": ["5c8a22c62f8fb814b56fa18b", "5c8a23412f8fb814b56fa18c"],
-    "price": 1997,
-    "summary": "Exquisite wines, scenic views, exclusive barrel tastings,  and much more",
-    "description": "Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\nIrure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    "price": 1850,
+    "summary": "Exquisite wines, scenic views, and exclusive barrel tastings in the Vale dos Vinhedos",
+    "description": "Delight yourself with a sensory journey through the prestigious Vale dos Vinhedos, in Southern Brazil. Visit family-owned wineries and historic estates, where the tradition of winemaking has been passed down from generation to generation. Walk through the vineyards and understand the secrets of a unique terroir.\nExclusive barrel tastings are paired with rich local gastronomy, inspired by Italian heritage. A sophisticated, relaxing experience tailor-made for the most demanding palates.",
     "imageCover": "tour-7-cover.jpg",
     "locations": [
       {
         "_id": "5c88fa8cf4afda39709c296f",
-        "description": "Beringer Vineyards",
+        "description": "Vinícola Miolo",
         "type": "Point",
-        "coordinates": [-122.479887, 38.510312],
+        "coordinates": [-51.5835, -29.1764],
         "day": 1
       },
       {
         "_id": "5c88fa8cf4afda39709c296e",
-        "description": "Clos Pegase Winery & Tasting Room",
+        "description": "Casa Valduga",
         "type": "Point",
-        "coordinates": [-122.582948, 38.585707],
+        "coordinates": [-51.581, -29.1672],
         "day": 3
       },
       {
         "_id": "5c88fa8cf4afda39709c296d",
-        "description": "Raymond Vineyard and Cellar",
+        "description": "Caminhos de Pedra",
         "type": "Point",
-        "coordinates": [-122.434697, 38.482181],
+        "coordinates": [-51.4645, -29.1378],
         "day": 5
       }
     ]
