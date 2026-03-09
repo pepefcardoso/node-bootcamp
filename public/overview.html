@@ -8,7 +8,6 @@
       href="https://fonts.googleapis.com/css?family=Lato:300,300i,700"
       rel="stylesheet"
     />
-
     <link rel="stylesheet" href="css/style.css" />
     <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
 
@@ -16,30 +15,16 @@
   </head>
   <body>
     <header class="header">
-      <nav class="nav nav--tours">
-        <a href="#" class="nav__el">All tours</a>
-        <form class="nav__search">
-          <button class="nav__search-btn">
-            <svg>
-              <use xlink:href="img/icons.svg#icon-search"></use>
-            </svg>
-          </button>
-          <input
-            type="text"
-            placeholder="Search tours"
-            class="nav__search-input"
-          />
-        </form>
+      <nav class="nav">
+        <a href="#" class="nav__el">Explorar Tours</a>
       </nav>
+
       <div class="header__logo">
         <img src="img/logo-white.png" alt="Roamora logo" />
       </div>
-      <nav class="nav nav--user">
-        <a href="#" class="nav__el">My bookings</a>
-        <a href="#" class="nav__el">
-          <img src="img/user.jpg" alt="User photo" class="nav__user-img" />
-          <span>Pedro</span>
-        </a>
+
+      <nav class="nav">
+        <a href="#" class="nav__el btn btn--orange">Login</a>
       </nav>
     </header>
 
@@ -48,377 +33,42 @@
         <div class="card">
           <div class="card__header">
             <div class="card__picture">
-              <div class="card__picture-overlay">&nbsp;</div>
+              <div class="card__picture-overlay"></div>
               <img
                 src="img/tour-1-cover.jpg"
-                alt="The Chapada Hiker"
+                alt="Tour"
                 class="card__picture-img"
               />
             </div>
-
             <h3 class="heading-tertirary">
               <span>The Chapada Hiker</span>
             </h3>
           </div>
 
           <div class="card__details">
-            <h4 class="card__sub-heading">Medium 6-day tour</h4>
+            <h4 class="card__sub-heading">6 dias de aventura • Médio</h4>
             <p class="card__text">
-              Breathtaking hike through the lush trails of Chapada Diamantina
+              Caminhadas épicas pelas trilhas verdejantes da Chapada Diamantina.
             </p>
-            <div class="card__data">
-              <svg class="card__icon">
-                <use xlink:href="img/icons.svg#icon-map-pin"></use>
-              </svg>
-              <span>Lençóis, Brazil</span>
-            </div>
-            <div class="card__data">
-              <svg class="card__icon">
-                <use xlink:href="img/icons.svg#icon-calendar"></use>
-              </svg>
-              <span>April 2026</span>
-            </div>
-            <div class="card__data">
-              <svg class="card__icon">
-                <use xlink:href="img/icons.svg#icon-flag"></use>
-              </svg>
-              <span>3 stops</span>
-            </div>
-            <div class="card__data">
-              <svg class="card__icon">
-                <use xlink:href="img/icons.svg#icon-user"></use>
-              </svg>
-              <span>20 people</span>
-            </div>
           </div>
 
           <div class="card__footer">
-            <p>
-              <span class="card__footer-value">$415</span>
-              <span class="card__footer-text">per person</span>
-            </p>
-            <p class="card__ratings">
-              <span class="card__footer-value">4.8</span>
-              <span class="card__footer-text">rating (42)</span>
-            </p>
-            <a href="#" class="btn btn--green btn--small">Details</a>
-          </div>
-        </div>
-
-        <div class="card">
-          <div class="card__header">
-            <div class="card__picture">
-              <div class="card__picture-overlay">&nbsp;</div>
-              <img
-                src="img/tour-2-cover.jpg"
-                alt="The Costa Verde Explorer"
-                class="card__picture-img"
-              />
+            <div class="card__price">
+              <span class="card__price-value">$415</span>
+              <span class="card__price-text">/ pessoa</span>
             </div>
-
-            <h3 class="heading-tertirary">
-              <span>The Costa Verde Explorer</span>
-            </h3>
-          </div>
-
-          <div class="card__details">
-            <h4 class="card__sub-heading">Easy 8-day tour</h4>
-            <p class="card__text">
-              Exploring the jaw-dropping Brazilian Costa Verde by foot and by
-              boat
-            </p>
-            <div class="card__data">
-              <svg class="card__icon">
-                <use xlink:href="img/icons.svg#icon-map-pin"></use>
-              </svg>
-              <span>Paraty, Brazil</span>
-            </div>
-            <div class="card__data">
-              <svg class="card__icon">
-                <use xlink:href="img/icons.svg#icon-calendar"></use>
-              </svg>
-              <span>June 2026</span>
-            </div>
-            <div class="card__data">
-              <svg class="card__icon">
-                <use xlink:href="img/icons.svg#icon-flag"></use>
-              </svg>
-              <span>4 stops</span>
-            </div>
-            <div class="card__data">
-              <svg class="card__icon">
-                <use xlink:href="img/icons.svg#icon-user"></use>
-              </svg>
-              <span>12 people</span>
-            </div>
-          </div>
-
-          <div class="card__footer">
-            <p>
-              <span class="card__footer-value">$520</span>
-              <span class="card__footer-text">per person</span>
-            </p>
-            <p class="card__ratings">
-              <span class="card__footer-value">4.6</span>
-              <span class="card__footer-text">rating (28)</span>
-            </p>
-            <a href="#" class="btn btn--green btn--small">Details</a>
-          </div>
-        </div>
-
-        <div class="card">
-          <div class="card__header">
-            <div class="card__picture">
-              <div class="card__picture-overlay">&nbsp;</div>
-              <img
-                src="img/tour-3-cover.jpg"
-                alt="The Catarina Snow Adventurer"
-                class="card__picture-img"
-              />
-            </div>
-
-            <h3 class="heading-tertirary">
-              <span>The Catarina Snow Adventurer</span>
-            </h3>
-          </div>
-
-          <div class="card__details">
-            <h4 class="card__sub-heading">Medium 3-day tour</h4>
-            <p class="card__text">
-              Rare and exciting frosty adventure catching the winter snow in
-              Serra Catarinense
-            </p>
-            <div class="card__data">
-              <svg class="card__icon">
-                <use xlink:href="img/icons.svg#icon-map-pin"></use>
-              </svg>
-              <span>São Joaquim, Brazil</span>
-            </div>
-            <div class="card__data">
-              <svg class="card__icon">
-                <use xlink:href="img/icons.svg#icon-calendar"></use>
-              </svg>
-              <span>July 2026</span>
-            </div>
-            <div class="card__data">
-              <svg class="card__icon">
-                <use xlink:href="img/icons.svg#icon-flag"></use>
-              </svg>
-              <span>2 stops</span>
-            </div>
-            <div class="card__data">
-              <svg class="card__icon">
-                <use xlink:href="img/icons.svg#icon-user"></use>
-              </svg>
-              <span>15 people</span>
-            </div>
-          </div>
-
-          <div class="card__footer">
-            <p>
-              <span class="card__footer-value">$850</span>
-              <span class="card__footer-text">per person</span>
-            </p>
-            <p class="card__ratings">
-              <span class="card__footer-value">4.7</span>
-              <span class="card__footer-text">rating (18)</span>
-            </p>
-            <a href="#" class="btn btn--green btn--small">Details</a>
-          </div>
-        </div>
-
-        <div class="card">
-          <div class="card__header">
-            <div class="card__picture">
-              <div class="card__picture-overlay">&nbsp;</div>
-              <img
-                src="img/tour-4-cover.jpg"
-                alt="The Colonial City Wanderer"
-                class="card__picture-img"
-              />
-            </div>
-
-            <h3 class="heading-tertirary">
-              <span>The Colonial City Wanderer</span>
-            </h3>
-          </div>
-
-          <div class="card__details">
-            <h4 class="card__sub-heading">Easy 10-day tour</h4>
-            <p class="card__text">
-              Living the life of Wanderlust in Brazil's most beautiful
-              historical cities like Ouro Preto and Paraty
-            </p>
-            <div class="card__data">
-              <svg class="card__icon">
-                <use xlink:href="img/icons.svg#icon-map-pin"></use>
-              </svg>
-              <span>Ouro Preto, Brazil</span>
-            </div>
-            <div class="card__data">
-              <svg class="card__icon">
-                <use xlink:href="img/icons.svg#icon-calendar"></use>
-              </svg>
-              <span>March 2026</span>
-            </div>
-            <div class="card__data">
-              <svg class="card__icon">
-                <use xlink:href="img/icons.svg#icon-flag"></use>
-              </svg>
-              <span>3 stops</span>
-            </div>
-            <div class="card__data">
-              <svg class="card__icon">
-                <use xlink:href="img/icons.svg#icon-user"></use>
-              </svg>
-              <span>18 people</span>
-            </div>
-          </div>
-
-          <div class="card__footer">
-            <p>
-              <span class="card__footer-value">$1,050</span>
-              <span class="card__footer-text">per person</span>
-            </p>
-            <p class="card__ratings">
-              <span class="card__footer-value">4.9</span>
-              <span class="card__footer-text">rating (61)</span>
-            </p>
-            <a href="#" class="btn btn--green btn--small">Details</a>
-          </div>
-        </div>
-
-        <div class="card">
-          <div class="card__header">
-            <div class="card__picture">
-              <div class="card__picture-overlay">&nbsp;</div>
-              <img
-                src="img/tour-5-cover.jpg"
-                alt="The Lençóis Camper"
-                class="card__picture-img"
-              />
-            </div>
-
-            <h3 class="heading-tertirary">
-              <span>The Lençóis Camper</span>
-            </h3>
-          </div>
-
-          <div class="card__details">
-            <h4 class="card__sub-heading">Difficult 12-day tour</h4>
-            <p class="card__text">
-              Breathing in Nature in Brazil's most spectacular National Parks
-              like Lençóis Maranhenses
-            </p>
-            <div class="card__data">
-              <svg class="card__icon">
-                <use xlink:href="img/icons.svg#icon-map-pin"></use>
-              </svg>
-              <span>Barreirinhas, Brazil</span>
-            </div>
-            <div class="card__data">
-              <svg class="card__icon">
-                <use xlink:href="img/icons.svg#icon-calendar"></use>
-              </svg>
-              <span>August 2026</span>
-            </div>
-            <div class="card__data">
-              <svg class="card__icon">
-                <use xlink:href="img/icons.svg#icon-flag"></use>
-              </svg>
-              <span>4 stops</span>
-            </div>
-            <div class="card__data">
-              <svg class="card__icon">
-                <use xlink:href="img/icons.svg#icon-user"></use>
-              </svg>
-              <span>10 people</span>
-            </div>
-          </div>
-
-          <div class="card__footer">
-            <p>
-              <span class="card__footer-value">$1,600</span>
-              <span class="card__footer-text">per person</span>
-            </p>
-            <p class="card__ratings">
-              <span class="card__footer-value">4.8</span>
-              <span class="card__footer-text">rating (24)</span>
-            </p>
-            <a href="/tour.html" class="btn btn--green btn--small">Details</a>
-          </div>
-        </div>
-
-        <div class="card">
-          <div class="card__header">
-            <div class="card__picture">
-              <div class="card__picture-overlay">&nbsp;</div>
-              <img
-                src="img/tour-6-cover.jpg"
-                alt="The Tropical Sports Lover"
-                class="card__picture-img"
-              />
-            </div>
-
-            <h3 class="heading-tertirary">
-              <span>The Tropical Sports Lover</span>
-            </h3>
-          </div>
-
-          <div class="card__details">
-            <h4 class="card__sub-heading">Difficult 15-day tour</h4>
-            <p class="card__text">
-              Surfing in Florianópolis, hang gliding in Rio, rock climbing and
-              more, all in one tour
-            </p>
-            <div class="card__data">
-              <svg class="card__icon">
-                <use xlink:href="img/icons.svg#icon-map-pin"></use>
-              </svg>
-              <span>Rio de Janeiro, Brazil</span>
-            </div>
-            <div class="card__data">
-              <svg class="card__icon">
-                <use xlink:href="img/icons.svg#icon-calendar"></use>
-              </svg>
-              <span>July 2026</span>
-            </div>
-            <div class="card__data">
-              <svg class="card__icon">
-                <use xlink:href="img/icons.svg#icon-flag"></use>
-              </svg>
-              <span>5 stops</span>
-            </div>
-            <div class="card__data">
-              <svg class="card__icon">
-                <use xlink:href="img/icons.svg#icon-user"></use>
-              </svg>
-              <span>6 people</span>
-            </div>
-          </div>
-
-          <div class="card__footer">
-            <p>
-              <span class="card__footer-value">$3,100</span>
-              <span class="card__footer-text">per person</span>
-            </p>
-            <p class="card__ratings">
-              <span class="card__footer-value">4.5</span>
-              <span class="card__footer-text">rating (32)</span>
-            </p>
-            <a href="#" class="btn btn--green btn--small">Details</a>
+            <a href="/tour.html" class="btn btn--orange">Detalhes</a>
           </div>
         </div>
       </div>
     </main>
 
-    <div class="footer">
+    <footer class="footer">
       <div class="footer__logo">
-        <img src="img/logo-green.png" alt="Roamora logo" />
+        <img src="img/logo-white.png" alt="Roamora logo" />
       </div>
       <ul class="footer__nav">
         <li><a href="#">About us</a></li>
-        <li><a href="#">Download apps</a></li>
         <li><a href="#">Become a guide</a></li>
         <li><a href="#">Careers</a></li>
         <li><a href="#">Contact</a></li>
@@ -426,6 +76,6 @@
       <p class="footer__copyright">
         &copy; by Pedro Cardoso. All rights reserved.
       </p>
-    </div>
+    </footer>
   </body>
 </html>

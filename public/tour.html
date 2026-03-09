@@ -3,16 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
     <link
-      href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700"
+      href="https://fonts.googleapis.com/css?family=Lato:300,400,700"
       rel="stylesheet"
     />
-
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
-
-    <title>Roamora | Explore the Untamed</title>
+    <title>Roamora | The Lençóis Camper Tour</title>
 
     <script src="https://api.mapbox.com/mapbox-gl-js/v0.50.0/mapbox-gl.js"></script>
     <link
@@ -22,35 +18,30 @@
   </head>
   <body>
     <header class="header">
-      <nav class="nav nav--tours">
-        <a href="/overview.html" class="nav__el">All tours</a>
-        <form class="nav__search">
-          <button class="nav__search-btn">
-            <svg>
-              <use xlink:href="img/icons.svg#icon-search"></use>
-            </svg>
-          </button>
-          <input
-            type="text"
-            placeholder="Search tours"
-            class="nav__search-input"
-          />
-        </form>
+      <nav class="nav">
+        <a href="/overview.html" class="nav__el">Todos os Tours</a>
       </nav>
       <div class="header__logo">
         <img src="img/logo-white.png" alt="Roamora logo" />
       </div>
-      <nav class="nav nav--user">
-        <a href="#" class="nav__el">My bookings</a>
-        <button class="nav__el">Log out</button>
-        <a href="#" class="nav__el">
-          <img src="img/user.jpg" alt="User photo" class="nav__user-img" />
-          <span>Pedro</span>
-        </a>
+      <nav class="nav">
+        <a href="#" class="nav__el" style="margin-right: 2rem"
+          >Minhas Reservas</a
+        >
+        <a href="#" class="nav__el nav__el--cta">Login</a>
       </nav>
     </header>
 
     <section class="section-header">
+      <div class="header__hero">
+        <div class="header__hero-overlay"></div>
+        <img
+          src="img/tour-5-cover.jpg"
+          alt="Lençóis"
+          class="header__hero-img"
+        />
+      </div>
+
       <div class="heading-box">
         <h1 class="heading-primary">
           <span
@@ -63,13 +54,13 @@
             <svg class="heading-box__icon">
               <use xlink:href="img/icons.svg#icon-clock"></use>
             </svg>
-            <span class="heading-box__text">12 days</span>
+            <span>12 Dias</span>
           </div>
           <div class="heading-box__detail">
             <svg class="heading-box__icon">
               <use xlink:href="img/icons.svg#icon-map-pin"></use>
             </svg>
-            <span class="heading-box__text">Barreirinhas, Brazil</span>
+            <span>Barreirinhas, Brasil</span>
           </div>
         </div>
       </div>
@@ -79,205 +70,79 @@
       <div class="overview-box">
         <div>
           <div class="overview-box__group">
-            <h2 class="heading-secondary ma-bt-lg">Quick facts</h2>
+            <h2 class="heading-secondary">Quick Facts</h2>
             <div class="overview-box__detail">
               <svg class="overview-box__icon">
                 <use xlink:href="img/icons.svg#icon-calendar"></use>
               </svg>
-              <span class="overview-box__label">Next date</span>
-              <span class="overview-box__text">August 2026</span>
+              <span class="overview-box__label">Data</span>
+              <span>Agosto 2026</span>
             </div>
             <div class="overview-box__detail">
               <svg class="overview-box__icon">
                 <use xlink:href="img/icons.svg#icon-trending-up"></use>
               </svg>
-              <span class="overview-box__label">Difficulty</span>
-              <span class="overview-box__text">Difficult</span>
-            </div>
-            <div class="overview-box__detail">
-              <svg class="overview-box__icon">
-                <use xlink:href="img/icons.svg#icon-user"></use>
-              </svg>
-              <span class="overview-box__label">Participants</span>
-              <span class="overview-box__text">10 people</span>
+              <span class="overview-box__label">Dificuldade</span>
+              <span>Difícil</span>
             </div>
             <div class="overview-box__detail">
               <svg class="overview-box__icon">
                 <use xlink:href="img/icons.svg#icon-star"></use>
               </svg>
-              <span class="overview-box__label">Rating</span>
-              <span class="overview-box__text">4.8 / 5</span>
+              <span class="overview-box__label">Avaliação</span>
+              <span>4.8 / 5</span>
             </div>
           </div>
 
-          <div class="overview-box__group">
-            <h2 class="heading-secondary ma-bt-lg">Your tour guides</h2>
-
+          <div class="overview-box__group" style="margin-top: 5rem">
+            <h2 class="heading-secondary">Teus Guias</h2>
             <div class="overview-box__detail">
               <img
                 src="img/users/user-19.jpg"
-                alt="Lead guide"
+                alt="Guia"
                 class="overview-box__img"
               />
               <span class="overview-box__label">Lead guide</span>
-              <span class="overview-box__text">Steven Miller</span>
-            </div>
-            <div class="overview-box__detail">
-              <img
-                src="img/users/user-18.jpg"
-                alt="Tour guide"
-                class="overview-box__img"
-              />
-              <span class="overview-box__label">Tour guide</span>
-              <span class="overview-box__text">Lisa Brown</span>
-            </div>
-            <div class="overview-box__detail">
-              <img
-                src="img/users/user-17.jpg"
-                alt="Intern"
-                class="overview-box__img"
-              />
-              <span class="overview-box__label">Intern</span>
-              <span class="overview-box__text">Max Smith</span>
+              <span>Steven Miller</span>
             </div>
           </div>
         </div>
       </div>
 
       <div class="description-box">
-        <h2 class="heading-secondary ma-bt-lg">
-          About The Lençóis Camper tour
-        </h2>
-        <p class="description__text">
-          Camp under a starry sky in the middle of one of the most surreal
-          landscapes on the planet. Lençóis Maranhenses, with its endless white
-          sand dunes and turquoise freshwater lagoons, provide a visual
-          spectacle that defies the imagination. Feel the texture of the fine
-          sand as you walk to your private oasis.
+        <h2 class="heading-secondary">Sobre a expedição</h2>
+        <p style="font-size: 1.7rem; margin-bottom: 2rem">
+          Acampa sob um céu estrelado no meio de uma das paisagens mais surreais
+          do planeta. Lençóis Maranhenses, com as suas dunas de areia branca
+          infinita e lagoas de água doce turquesa.
         </p>
-        <p class="description__text">
-          Experience the absolute peace of the Brazilian desert and wake up to
-          the sunrise reflecting in the clear waters. A true disconnection from
-          modern life to reconnect with the essence of wild nature.
+        <p style="font-size: 1.7rem">
+          Uma verdadeira desconexão da vida moderna para te reconectares com a
+          essência da natureza selvagem.
         </p>
-      </div>
-    </section>
-
-    <section class="section-pictures">
-      <div class="picture-box">
-        <img
-          class="picture-box__img picture-box__img--1"
-          src="img/tour-5-1.jpg"
-          alt="The Lençóis Camper Tour 1"
-        />
-      </div>
-      <div class="picture-box">
-        <img
-          class="picture-box__img picture-box__img--2"
-          src="img/tour-5-2.jpg"
-          alt="The Lençóis Camper Tour 2"
-        />
-      </div>
-      <div class="picture-box">
-        <img
-          class="picture-box__img picture-box__img--3"
-          src="img/tour-5-3.jpg"
-          alt="The Lençóis Camper Tour 3"
-        />
       </div>
     </section>
 
     <section class="section-map">
-      <div id="map"></div>
+      <div id="map" style="height: 60rem; width: 100%"></div>
       <script>
         mapboxgl.accessToken = '{{MAPBOX_ACCESS_TOKEN}}';
-
-        const geojson = {
-          type: 'FeatureCollection',
-          features: [
-            {
-              type: 'Feature',
-              geometry: {
-                type: 'Point',
-                coordinates: [-42.946, -2.5701],
-              },
-              properties: {
-                description: 'Day 1: Lagoa Azul',
-              },
-            },
-            {
-              type: 'Feature',
-              geometry: {
-                type: 'Point',
-                coordinates: [-42.7118, -2.5786],
-              },
-              properties: {
-                description: 'Day 4: Caburé',
-              },
-            },
-            {
-              type: 'Feature',
-              geometry: {
-                type: 'Point',
-                coordinates: [-42.7488, -2.5796],
-              },
-              properties: {
-                description: 'Day 5: Atins',
-              },
-            },
-            {
-              type: 'Feature',
-              geometry: {
-                type: 'Point',
-                coordinates: [-43.2382, -2.4496],
-              },
-              properties: {
-                description: 'Day 9: Santo Amaro do Maranhão',
-              },
-            },
-          ],
-        };
-
         const map = new mapboxgl.Map({
           container: 'map',
-          style: 'mapbox://styles/jonasschmedtmann/cjnxfn3zk7bj52rpegdltx58h',
+          style: 'mapbox://styles/mapbox/outdoors-v11',
           scrollZoom: false,
         });
 
+        const coords = [
+          [-42.946, -2.5701],
+          [-42.7118, -2.5786],
+          [-43.2382, -2.4496],
+        ];
         const bounds = new mapboxgl.LngLatBounds();
+        coords.forEach((c) => bounds.extend(c));
+        map.fitBounds(bounds, { padding: 100 });
 
-        geojson.features.forEach(function (marker) {
-          var el = document.createElement('div');
-          el.className = 'marker';
-
-          new mapboxgl.Marker({
-            element: el,
-            anchor: 'bottom',
-          })
-            .setLngLat(marker.geometry.coordinates)
-            .addTo(map);
-
-          new mapboxgl.Popup({
-            offset: 30,
-            closeOnClick: false,
-          })
-            .setLngLat(marker.geometry.coordinates)
-            .setHTML('<p>' + marker.properties.description + '</p>')
-            .addTo(map);
-
-          bounds.extend(marker.geometry.coordinates);
-        });
-
-        map.fitBounds(bounds, {
-          padding: {
-            top: 200,
-            bottom: 150,
-            left: 50,
-            right: 50,
-          },
-        });
-
-        map.on('load', function () {
+        map.on('load', () => {
           map.addLayer({
             id: 'route',
             type: 'line',
@@ -285,26 +150,13 @@
               type: 'geojson',
               data: {
                 type: 'Feature',
-                properties: {},
-                geometry: {
-                  type: 'LineString',
-                  coordinates: [
-                    [-42.946, -2.5701],
-                    [-42.7118, -2.5786],
-                    [-42.7488, -2.5796],
-                    [-43.2382, -2.4496],
-                  ],
-                },
+                geometry: { type: 'LineString', coordinates: coords },
               },
             },
-            layout: {
-              'line-join': 'round',
-              'line-cap': 'round',
-            },
             paint: {
-              'line-color': '#55c57a',
-              'line-opacity': 0.6,
-              'line-width': 3,
+              'line-color': '#f38e44',
+              'line-width': 4,
+              'line-opacity': 0.8,
             },
           });
         });
@@ -314,65 +166,43 @@
     <section class="section-reviews">
       <div class="reviews">
         <div class="reviews__card">
-          <div class="reviews__avatar">
-            <img
-              src="img/users/user-7.jpg"
-              alt="Jim Brown"
-              class="reviews__avatar-img"
-            />
-            <h6 class="reviews__user">Jim Brown</h6>
-          </div>
-          <p class="reviews__text">
-            This camping experience in the dunes was unreal! The sunrise over
-            the lagoons is something I will never forget.
+          <img
+            src="img/users/user-7.jpg"
+            alt="Jim"
+            class="reviews__avatar-img"
+          />
+          <p style="font-size: 1.5rem; font-style: italic; margin-bottom: 2rem">
+            "O nascer do sol nas lagoas é algo que nunca esquecerei. Surreal!"
           </p>
           <div class="reviews__rating">
-            <svg class="reviews__star reviews__star--active">
+            <svg
+              class="reviews__star--active"
+              style="height: 2rem; width: 2rem"
+            >
               <use xlink:href="img/icons.svg#icon-star"></use>
             </svg>
-            <svg class="reviews__star reviews__star--active">
+            <svg
+              class="reviews__star--active"
+              style="height: 2rem; width: 2rem"
+            >
               <use xlink:href="img/icons.svg#icon-star"></use>
             </svg>
-            <svg class="reviews__star reviews__star--active">
+            <svg
+              class="reviews__star--active"
+              style="height: 2rem; width: 2rem"
+            >
               <use xlink:href="img/icons.svg#icon-star"></use>
             </svg>
-            <svg class="reviews__star reviews__star--active">
+            <svg
+              class="reviews__star--active"
+              style="height: 2rem; width: 2rem"
+            >
               <use xlink:href="img/icons.svg#icon-star"></use>
             </svg>
-            <svg class="reviews__star reviews__star--active">
-              <use xlink:href="img/icons.svg#icon-star"></use>
-            </svg>
-          </div>
-        </div>
-
-        <div class="reviews__card">
-          <div class="reviews__avatar">
-            <img
-              src="img/users/user-14.jpg"
-              alt="Laura Wilson"
-              class="reviews__avatar-img"
-            />
-            <h6 class="reviews__user">Laura Wilson</h6>
-          </div>
-          <p class="reviews__text">
-            A challenging trek but absolutely worth the effort. Disconnecting
-            completely from civilization was just what I needed. Highly
-            recommend!
-          </p>
-          <div class="reviews__rating">
-            <svg class="reviews__star reviews__star--active">
-              <use xlink:href="img/icons.svg#icon-star"></use>
-            </svg>
-            <svg class="reviews__star reviews__star--active">
-              <use xlink:href="img/icons.svg#icon-star"></use>
-            </svg>
-            <svg class="reviews__star reviews__star--active">
-              <use xlink:href="img/icons.svg#icon-star"></use>
-            </svg>
-            <svg class="reviews__star reviews__star--active">
-              <use xlink:href="img/icons.svg#icon-star"></use>
-            </svg>
-            <svg class="reviews__star reviews__star--inactive">
+            <svg
+              class="reviews__star--active"
+              style="height: 2rem; width: 2rem"
+            >
               <use xlink:href="img/icons.svg#icon-star"></use>
             </svg>
           </div>
@@ -382,36 +212,26 @@
 
     <section class="section-cta">
       <div class="cta">
-        <div class="cta__img cta__img--logo">
-          <img src="img/logo-white.png" alt="Roamora logo" class="" />
-        </div>
-        <img src="img/tour-5-2.jpg" alt="" class="cta__img cta__img--1" />
-        <img src="img/tour-5-1.jpg" alt="" class="cta__img cta__img--2" />
-
         <div class="cta__content">
-          <h2 class="heading-secondary">What are you waiting for?</h2>
-          <p class="cta__text">
-            12 days. 1 adventure. Infinite memories. Make it yours today!
+          <h2 class="heading-secondary">Estás à espera de quê?</h2>
+          <p style="font-size: 1.9rem">
+            12 dias. 1 aventura. Memórias infinitas. Faz o teu hoje!
           </p>
-          <button class="btn btn--green span-all-rows">Book tour now!</button>
         </div>
+        <button class="btn btn--orange">Reservar Tour Agora</button>
       </div>
     </section>
 
-    <div class="footer">
+    <footer class="footer">
       <div class="footer__logo">
-        <img src="img/logo-green.png" alt="Roamora logo" />
+        <img src="img/logo-white.png" alt="Logo" />
       </div>
       <ul class="footer__nav">
-        <li><a href="#">About us</a></li>
-        <li><a href="#">Download apps</a></li>
-        <li><a href="#">Become a guide</a></li>
-        <li><a href="#">Careers</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="#">Sobre nós</a></li>
+        <li><a href="#">Carreiras</a></li>
+        <li><a href="#">Contacto</a></li>
       </ul>
-      <p class="footer__copyright">
-        &copy; by Pedro Cardoso. All rights reserved.
-      </p>
-    </div>
+      <p>&copy; Pedro Cardoso. Roamora 2026.</p>
+    </footer>
   </body>
 </html>
